@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Teller Machine</title>
+  <meta name="generator" content="Google Web Designer 7.1.1.1210">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all">
+  <script defer="" src="script.js"></script>
+</head>
+
+<body class="htmlNoPages" onload="pageLoad()">
+  <p class="titleText">Teller Machine</p>
+  <button id="Reset" class="button btn_reset" title=" Re-sets Cash Drawer to initial values (currently 10)"tabindex="-1">Reset</button>
+  <button id="SetWinner" class="button btn_setWinner" title="Sets the winning horse to the number you enter to the right" tabindex="-1">Set Winner</button>
+  <button id="Bet" class="button btn_bet" title="Will pay you out the amount you enter * the Odds for the currently set Winning Horse" tabindex="-1">Bet</button>
+  <input type="text" id="WinningHorseNum" class="textinput txt_winHorseNum"  tabindex="1">
+  <input type="text" id="BetAmount" class="textinput txt_betAmt"  tabindex="2">
+  <textarea id="CashDrawer" class="textarea ta_cashDrawer " readonly tabindex="-1"></textarea>
+  <textarea id="Horses" class="textarea ta_Horses" readonly tabindex="-1"></textarea>
+  <textarea  id="Message" class="ta_message" readonly rows="15" tabindex="-1"></textarea>
+  <p class="p_Horses" title= "Horse#, Name, Odds, won/lost" tabindex="-1">Horses:</p>
+  <p class="p_cashDrawer" title="Denomination, Qty" tabindex="-1">Cash Drawer:</p>
+  <p class="p_msg">Message:</p>
+  </p>
+</body>
+
+</html>
